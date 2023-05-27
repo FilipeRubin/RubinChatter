@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rubin Chatter</title>
+		<meta charset="UTF-8">
+		<script src="chat.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="title-desc">
+			<h1>Rubin Chatter</h1>
+			<h3>Anonymously, randomly and mostly safe...</h3>
+		</div>
+		<!--<div>
+			<input><button>Update username</button>
+		</div>-->
+		<div id="chatbox">
+			<div id="chatlog">
+			</div>
+			<div id="userbox">
+				<input id="userbox-input" onkeydown="handleKeyDown(event)" maxlength="126" autofocus>
+				<button onclick="sendMessage()" id="userbox-send">Send</button>
+			</div>
+		</div>
+	</body>
+	<footer>
+	</footer>
+</html>
